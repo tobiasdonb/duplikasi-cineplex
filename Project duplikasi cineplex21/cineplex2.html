@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style3.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+
+</head>
+
+
+<body>
+    <!-- header -->
+    <header id="header" class="header">
+        <div id="top-bar" class="top-bar"></div>
+        <div class="header-box">
+            <div class="container">
+                <div class="navbar">
+                    <div class="col-1">
+                        <div class="logo">
+                            <a href="cineplex2.html" class="link-home">
+                                <img src="gambar/home-icon.png" alt="Home Icon">
+                                <img src="gambar/logo.png" alt="">
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="search">
+                            <input type="text" id="search-movie" placeholder="Search theater, movies...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-wrap">
+            <div class="container">
+                <div class="primary-menu">
+                    <ul class="list-header">
+                        <li>
+                            <a href="#">
+                                <div class="nowplaying">
+                                    <div class="img-nowplaying"></div>
+                                    Now Playing
+                                </div>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="upcoming">
+                                    <div class="img-upcoming"></div>
+                                    Upcoming
+                                </div>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="theathers">
+                                    <div class="img-theathers"></div>
+                                    Theathers
+                                </div>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="promotions">
+                                    <div class="img-promotions"></div>
+                                    Promotions
+                                </div>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="#info-21">
+                                <div class="info-21 clear">
+                                    <div class="img-info-21"></div>
+                                    <p>Info-21</p>
+                                    <i class="fa-solid fa-chevron-down">
+                                    </i>
+                                </div>
+                                <div class="dropdown">
+                                    <a href="">Movie News</a>
+                                    <a href="">News Opening</a>
+                                    <a href="">Investor Relations</a>
+                                </div>
+                            </a>
+
+                        </li>
+                    </ul>
+                    <div class="menu-right">
+                        <a href="#">
+                            <img src="gambar/imax-menu.png" alt="IMAX">
+                        </a>
+                        <a href="#">
+                            <img src="gambar/dolby-menu.png">
+                        </a>
+                        <a href="#">
+                            <img src="gambar/mtix-menu.png" alt="M-TIX">
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        </div>
+    </header>
+
+
+    <!-- content -->
+
+    <section id="content" class="content">
+        <div class="container">
+            <!-- slider (maunya,tapi saya msh kurang ngerti pakai DOM) -->
+            <div class="slider">
+                <img src="gambar/poster/pengumuman.jpg" alt="">
+            </div>
+            <div class="heading-nowplaying">
+                <h3>Now Playing</h3>
+                <div class="select-tempat">
+                    <select id="cityChanged" class="select-kota">
+                        <option value="DENPASAR">DENPASAR</option>
+                        <option value="JAKARTA">JAKARTA</option>
+                        <option value="BOGOR">BOGOR</option>
+                        <option value="DEPOK">DEPOK</option>
+                        <option value="TANGERANG">TANGERANG</option>
+                        <option value="BEKASI">BEKASI</option>
+                        <option value="YOGYAKARTA">YOGYAKARTA</option>
+                        <option value="YOGYAKARTA">BANDUNG</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="movie">
+                    <a href="fallguy.html">
+                        <div class="movie-poster">
+                            <img src="gambar/poster/the-fall-guy.jpg" alt="thefallguy" srcset="">
+                        </div>
+                        <div class="movie-desc">
+                            <h4>Fall Guys</h4>
+                            <span class="movie-label"><img src="gambar/r13.png" alt="R13+"></span>
+                        </div>
+
+                    </a>
+
+                </div>
+                <div class="movie">
+                    <a href="the-roundup-punishment.html">
+                        <div class="movie-poster">
+                            <img src="gambar/poster/the roundup-punishment.jpg" alt="the-roundup-punishment" srcset="">
+                        </div>
+                        <div class="movie-desc">
+                            <h4>The Roundup: Punishment</h4>
+                            <span class="movie-label"><img src="gambar/r13.png" alt="R13+"></span>
+                        </div>
+
+                    </a>
+
+                </div>
+                <div class="movie">
+                    <a href="yolo.html">
+                        <div class="movie-poster">
+                            <img src="gambar/poster/yolo.jpg" alt="Yolo" srcset="">
+                        </div>
+                        <div class="movie-desc">
+                            <h4>Yolo</h4>
+                            <span class="movie-label"><img src="gambar/r13.png" alt="R13+"></span>
+                        </div>
+
+                    </a>
+
+                </div>
+                <div class="movie">
+                    <a href="maidaan.html">
+                        <div class="movie-poster">
+                            <img src="gambar/poster/maidaan.jpg" alt="Maidaan" srcset="">
+                        </div>
+                        <div class="movie-desc">
+                            <h4>Maidaan</h4>
+                            <span class="movie-label"><img src="gambar/r13.png" alt="R13+"></span>
+                        </div>
+
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section id="footer" class="footer">
+        <div class="container">
+            <div class="footer">
+                <div class="footer-top">
+                    <div class="left-">
+                        <ul class="footer-left-menu">
+                            <li><a href="">Profile</a></li>
+                            <li><a href="">Terms of Use</a></li>
+                            <li><a href="">Advertising</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="right-">
+                        <ul class="footer-right-menu">
+                            <li>
+                                <a href="insta">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="facebook">
+                                    <i class="fa-brands fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="twitter">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="youtube">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="footer-bottom">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ullam deleniti expedita in nemo odit
+                        esse veritatis consectetur impedit atque sit tempora quisquam tenetur eaque aut modi, minus
+                        laboriosam nisi.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <script>
+        feather.replace();
+    </script>
+</body>
+
+</html>
